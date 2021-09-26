@@ -1,0 +1,431 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0px;
+}
+h1{
+    font-family: 'Lora', 'serif';
+    font-weight: 600;
+}
+p{
+    font-family: 'Lora', 'serif';
+    font-weight: 400;
+}
+.slavoj{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 68%;
+    margin: 0px auto;
+  
+}
+@media screen and (max-width: 1200px) {
+    .slavoj  {
+       width: 100% ;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .slavoj  {
+       width: 100% ;
+    }
+  }
+.logo{
+    display:flex;
+    
+}
+.logo img{
+    object-fit: contain;
+}
+
+
+
+.slavoj div ul{
+    display:flex;
+    flex-direction:row;
+    vertical-align: middle;
+    line-height:normal;  
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 600px) {
+    .slavoj div ul {
+       flex-direction:column;
+       
+    }
+    .nav {
+        width: 50%;
+    }
+  }
+.slavoj div ul li {
+    font-family: 'Lora', 'serif';
+    font-weight: 600;
+    font-size: 1.3em;
+    padding-right: 1vw;
+    list-style-type: none;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+li>a{
+    text-decoration: none;
+    color: initial;
+}
+header{
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+main {
+    margin-top:0px;
+    padding-top:0px;
+    width:100%;
+    height: 700px;
+
+}
+div{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+.main-info{
+    padding-top:0px;
+    margin-top: 0px;
+    background-image:url("./images/thought.jpg");
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width:68%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width:1200px){
+    .main-info{
+        width:100%;
+        height:70%;
+        
+    }
+}
+
+@media screen and (max-width:600px){
+    .main-info{
+        height:50%;
+       background-size:cover;
+    }
+}
+.intro {
+    padding-top: 25%;
+    margin-left: 18%;
+    color: white;
+    font-weight: 500;
+ 
+    text-shadow: 2px 2px black;
+    
+}
+.typed{
+    color:white!important;
+}
+.typed_cursor{
+    color:white;
+}
+#coffee {
+    color:white;
+}
+.intro p{
+    position:relative;
+    overflow: hidden;
+    font-size: 1.5em;
+}
+.typed {
+    color:black;
+}
+.intro p:before{
+    content: '';
+    position:absolute;
+    left:-20%;
+    width:120%;
+    height:100%;
+    background: linear-gradient(90deg, transparent)
+}
+@media screen and (max-width: 1400px){
+    .intro{
+        padding-top: 10%;
+        margin-left: 15%;
+        
+    }
+}
+@media screen and (max-width: 1200px){
+    .intro{
+        padding-top: 15%;
+        margin-left: 10%;
+      
+    }
+}
+@media screen and (max-width: 900px){
+    .intro{
+        padding-top: 27%;
+        margin-left: 10%;
+        
+    }
+}
+@media screen and (max-width: 600px){
+    .intro{
+        padding-top: 35%;
+        margin-left: 7%;
+        
+    }
+}
+
+.biography{
+    width: 68%;
+    margin: 0 auto;
+    
+  
+}
+.bioimg{
+    width:45%;
+    height:auto;
+    
+}
+@media screen and (max-width: 1200px){
+   .biography{
+    width : 90%;
+}
+}
+
+.biography h1{
+    text-align: center;
+    font-style:italic;
+    
+}
+
+.bioimg-biodesc{
+    padding-top: 10px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+   
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1600px){
+    .bioimg{
+        width:45%;
+    }
+}
+.bioimg img{
+    width:90%;
+}
+
+.biodesc{
+    width:55%;
+  
+    font-weight: 600;
+    margin-top: 0px;
+    padding-left: 20px;
+}
+@media screen and (max-width: 600px){
+    .biodesc{
+       
+        width:100%
+    }
+    .bioimg-biodesc{
+        display:flex;
+        flex-direction:column;
+    }
+    .bioimg{
+        width:70%;
+        margin: 0 auto;
+    }
+}
+.biodesc p {
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.love{
+    width: 69%;
+    margin: 10px auto;
+    
+}
+@media screen and (max-width: 1200px){
+    .love{
+        width:100%;
+    }
+}
+.title h1{
+    margin-top:0px;
+    width:100%;   
+    text-align:center;
+    font-style: italic;
+    font-weight: 600;
+}
+.love-marriage{
+    width:100%;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.quotes p{
+    margin-top: 0px;
+    font-style:italic;
+    
+}
+
+.aboutmarriage{
+    width:45%;
+    height: 500px;
+    
+}
+.aboutmarriage img{
+    width: 100%;
+    height:70%;
+    object-fit:cover;
+    object-position: center top;
+}
+.aboutlove{
+    width:33%;
+    display:flex;
+    flex-direction:column;
+    margin-right: 20px;
+}
+.aboutlove div{
+    margin-top: 20px;
+}
+.article{
+    max-width: 99%;
+    margin-left: 20px;
+    font-weight:500;
+   
+}
+.interview h1{
+    text-align: center;
+    font-style: italic;
+}
+
+.article h1{
+    font-style: italic;
+}
+
+.bx-wrapper{
+    max-width: 100%;
+    width: 520px;
+    margin:0 auto;
+}
+.bx-wrapper img{
+    max-width: 100%;
+    height: auto;
+    
+}
+.jokes{
+    width:68%;
+    display:flex;
+    flex-direction:column;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1200px){
+    .jokes{
+        width: 100%;
+    }
+}
+.joke-articles{
+    margin: 0 auto;
+    width: 99%;
+}
+.js_article{
+    text-align: center;
+}
+.joke-articles p {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.3em;
+}
+.joke-images{
+    margin: 0 auto;
+    width:40%;
+}
+.joke-images img{
+    width: 90%;
+}
+.user_holder{
+    margin-top: 10px;
+}
+
+.article{
+    text-align: center;
+    max-width: 99%;
+}
+
+.comments_photo{
+    width: 80%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:row;
+}
+@media screen and (max-width: 1200px){
+    .comments_photo{
+        width: 99%;
+    }
+}
+.comments_1{
+    width:90%;
+}
+.user_img{
+    width:50%;
+    margin:0 auto;
+}
+.user_img img{
+    width:99%;
+    
+    
+}
+.humanity{
+    width:50%;
+    margin: auto auto;
+}
+.humanity img{
+    width: 90%;
+    margin-top: 30%;
+}
+.user_name{
+    text-align: center;
+    font-weight: bold;
+}
+.user_holder{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.user_comment{
+    text-align: center;
+    
+    border-top: 1px solid black;
+    padding: 5px 10px;
+}
+.footer{
+    background-color: rgb(228, 222, 222);
+    color:rgb(151, 69, 69);
+    text-align: center;
+    height: 80px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.last{
+    margin-bottom: 0px;
+}
+.comment_bro{
+    width: 30%;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+}
+.joke_button{
+    width: 200px;
+    margin: 0 auto;
+}
